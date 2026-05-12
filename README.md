@@ -28,59 +28,6 @@ This project is designed as part of a Mobile Development Cohort assignment to de
 
 ---
 
-
-# 📝 Notes App UI (React Native Expo)
-
-A modern, responsive, and visually polished Notes App UI built using **React Native (Expo SDK 55)**.  
-This project is designed as part of a Mobile Development Cohort assignment to demonstrate clean UI design, reusable components, and proper React Native best practices.
-
----
-
-## 🚀 Features
-
-- 🗒️ Notes Listing Screen with FlatList
-- 🔍 Real-time search/filter functionality
-- 🌙 Dark / Light mode support using `useColorScheme()`
-- ✍️ Beautiful Note Editor screen with ImageBackground header
-- ⌨️ Keyboard-friendly layout using `KeyboardAvoidingView`
-- 📱 Fully responsive design using `useWindowDimensions()`
-- 🧩 Reusable components (NoteCard, ThemeToggle)
-- 🎯 Clean UI with proper spacing, typography & shadows
-- 👆 Smooth interactions using Pressable components
-
----
-
-## 🛠️ Tech Stack
-
-- React Native
-- Expo SDK 55
-- JavaScript (ES6+)
-- JSX
-
----
-
-
-# 📝 Notes App UI (React Native Expo)
-
-A modern, responsive, and visually polished Notes App UI built using **React Native (Expo SDK 55)**.  
-This project is designed as part of a Mobile Development Cohort assignment to demonstrate clean UI design, reusable components, and proper React Native best practices.
-
----
-
-## 🚀 Features
-
-- 🗒️ Notes Listing Screen with FlatList
-- 🔍 Real-time search/filter functionality
-- 🌙 Dark / Light mode support using `useColorScheme()`
-- ✍️ Beautiful Note Editor screen with ImageBackground header
-- ⌨️ Keyboard-friendly layout using `KeyboardAvoidingView`
-- 📱 Fully responsive design using `useWindowDimensions()`
-- 🧩 Reusable components (NoteCard, ThemeToggle)
-- 🎯 Clean UI with proper spacing, typography & shadows
-- 👆 Smooth interactions using Pressable components
-
----
-
 ## 🛠️ Tech Stack
 
 - React Native
@@ -105,13 +52,7 @@ notes-app-ui/
 
 ---
 ```
-
-
-👉 isse niche ka content corrupt render hota hai
-
 ---
-
-
 
 ## 📸 Screenshots
 
