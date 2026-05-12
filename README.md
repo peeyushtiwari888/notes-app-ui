@@ -116,13 +116,13 @@ notes-app-ui/
 ## 📸 Screenshots
 
 ### 🖥️ Notes Listing Screen
-![Notes List](./src/screenshots/screen1.png)
+![Notes List](./src/screenshots/screen1.jpeg)
 
 ### 🌙 Dark Mode View
-![Dark Mode](./src/screenshots/screen2.png)
+![Dark Mode](./src/screenshots/screen2.jpeg)
 
 ### ✍️ Note Editor Screen
-![Editor Screen](./src/screenshots/screen3.png)
+![Editor Screen](./src/screenshots/screen3.jpeg)
 
 ### 📱 Responsive Tablet View
 ![Tablet View](./src/screenshots/screen4.png)
