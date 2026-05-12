@@ -26,15 +26,6 @@ This project is designed as part of a Mobile Development Cohort assignment to de
 - JavaScript (ES6+)
 - JSX
 
----
-
-## 🛠️ Tech Stack
-
-- React Native
-- Expo SDK 55
-- JavaScript (ES6+)
-- JSX
-
 ```
 
 ## 📂 Project Structure
