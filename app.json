@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Notes App UI",
+    "slug": "notes-app-ui",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "sdkVersion": "55.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
