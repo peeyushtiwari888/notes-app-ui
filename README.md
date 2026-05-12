@@ -142,8 +142,8 @@ Start Expo server
 -Scan QR code using Expo Go app
 ---
 📌 Key Concepts Used
--FlatList for optimized rendering
--seState for state management
+-FlatList for optimized rendering<br>
+-seState for state management<br>
 -useColorScheme for theme switching
 -useWindowDimensions for responsiveness
 -KeyboardAvoidingView for input handling
