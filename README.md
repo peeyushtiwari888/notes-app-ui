@@ -140,27 +140,7 @@ Start Expo server
 -npm start
 -Run on device
 -Scan QR code using Expo Go app
----
-📌 Key Concepts Used
--FlatList for optimized rendering<br>
--seState for state management<br>
--useColorScheme for theme switching
--useWindowDimensions for responsiveness
--KeyboardAvoidingView for input handling
--Pressable for interactive UI
---
-🎨 UI Highlights
--Modern card-based design
--Clean typography hierarchy
--Dark/Light adaptive UI
--Mobile-first responsive layout
--Smooth spacing and elevation effects
----
-💡 Future Improvements
--Add navigation between screens
--Add persistent storage (AsyncStorage)
--Add edit/delete note functionality
--Add animations for better UX
+
 ---
 👨‍💻 Author
 
