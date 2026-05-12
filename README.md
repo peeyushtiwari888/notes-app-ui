@@ -59,7 +59,7 @@ This project is designed as part of a Mobile Development Cohort assignment to de
 
 ---
 
-## 📂 Project Structure
+
 # 📝 Notes App UI (React Native Expo)
 
 A modern, responsive, and visually polished Notes App UI built using **React Native (Expo SDK 55)**.  
@@ -88,7 +88,7 @@ This project is designed as part of a Mobile Development Cohort assignment to de
 - JavaScript (ES6+)
 - JSX
 
----
+```
 
 ## 📂 Project Structure
 notes-app-ui/
