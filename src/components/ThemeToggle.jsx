@@ -1,29 +1,42 @@
 import React from 'react';
-import { View, Text, Switch, StyleSheet } from 'react-native';
+import { Pressable, Text, StyleSheet, View } from 'react-native';
 
 const ThemeToggle = ({ value, onValueChange, theme }) => {
   return (
-    <View style={styles.toggleRow}>
-      <Text style={[styles.toggleLabel, { color: theme.text }]}>Dark</Text>
-      <Switch
-        value={value}
-        onValueChange={onValueChange}
-        thumbColor={value ? theme.primary : theme.card}
-        trackColor={{ false: '#ccc', true: theme.primary }}
-      />
-    </View>
+    <Pressable
+      onPress={onValueChange}
+      style={({ pressed }) => [
+        styles.toggleBtn,
+        {
+          backgroundColor: value ? theme.primaryLight : theme.primaryLight,
+          borderColor: value ? theme.primary : theme.divider,
+          opacity: pressed ? 0.75 : 1,
+          transform: [{ scale: pressed ? 0.93 : 1 }],
+        },
+      ]}
+    >
+      <View style={styles.inner}>
+        <Text style={styles.icon}>{value ? '🌙' : '☀️'}</Text>
+      </View>
+    </Pressable>
   );
 };
 
 const styles = StyleSheet.create({
-  toggleRow: {
-    flexDirection: 'row',
+  toggleBtn: {
+    width: 46,
+    height: 46,
+    borderRadius: 23,
+    borderWidth: 1.5,
     alignItems: 'center',
+    justifyContent: 'center',
   },
-  toggleLabel: {
-    fontSize: 14,
-    fontWeight: '700',
-    marginRight: 10,
+  inner: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  icon: {
+    fontSize: 20,
   },
 });
 
